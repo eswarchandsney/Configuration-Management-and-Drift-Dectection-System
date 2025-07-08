@@ -18,29 +18,29 @@ A system to detect and correct configuration drift across development, staging, 
 🧪 Modular, testable architecture
 
 📁 Project Structure
-perl
-Copy
-Edit
+
+
 config-drift-system/
-├── app.py                      # Streamlit frontend
-├── config_drift_manager.py    # Main logic
-├── configs/                   # Environment config files (YAML/JSON)
-├── config_backups/            # Auto-created backups
-├── requirements.txt           # Dependencies
-├── README.md
+
+  ├── app.py                      # Streamlit frontend
+
+  ├── config_drift_manager.py    # Main logic
+
+  ├── configs/                   # Environment config files (YAML/JSON)
+
+  ├── config_backups/            # Auto-created backups
+
+  ├── requirements.txt           # Dependencies
+
+  ├── README.md
+
 🚀 How to Run Locally
 Clone the repo
 
-bash
-Copy
-Edit
 git clone https://github.com/eswarchandsney/Configuration-Management-and-Drift-Dectection-System.git
 cd Configuration-Management-and-Drift-Dectection-System
 Create a virtual environment and install requirements
 
-bash
-Copy
-Edit
 python -m venv venv
 venv\Scripts\activate  # On Windows
 pip install -r requirements.txt
