@@ -1,0 +1,10 @@
+api:
+  auth: oauth2
+  endpoint: http://api.prod
+database:
+  connection: mysql://prod_user:password@prod:3306/prod_db
+  timeout: 30
+logging:
+  level: ERROR
+security:
+  encryption: AES-256

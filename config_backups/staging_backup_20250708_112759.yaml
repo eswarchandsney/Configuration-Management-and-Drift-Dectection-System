@@ -1,0 +1,10 @@
+database:
+  connection: "mysql://stage_user:password@localhost:3306/stage_db"
+  timeout: 30
+api:
+  endpoint: "http://staging.api.local"
+  auth: "basic"
+security:
+  encryption: "AES-128"  # Intentional drift
+logging:
+  level: "INFO"  # Intentional drift

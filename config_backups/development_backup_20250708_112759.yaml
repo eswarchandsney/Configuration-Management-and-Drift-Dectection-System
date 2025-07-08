@@ -1,0 +1,10 @@
+database:
+  connection: "mysql://dev_user:password@localhost:3306/dev_db"
+  timeout: 30
+api:
+  endpoint: "http://dev.api.local"
+  auth: "basic"
+security:
+  encryption: "AES-256"
+logging:
+  level: "DEBUG"

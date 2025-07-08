@@ -1,0 +1,10 @@
+database:
+  connection: "mysql://prod_user:password@prod:3306/prod_db"
+  timeout: 30
+api:
+  endpoint: "http://api.prod"
+  auth: "oauth2"  # Intentional drift
+security:
+  encryption: "AES-256"
+logging:
+  level: "ERROR"
