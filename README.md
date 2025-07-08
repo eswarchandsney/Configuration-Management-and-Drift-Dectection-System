@@ -2,7 +2,7 @@
 🛠️ Configuration Management and Drift Detection System
 A system to detect and correct configuration drift across development, staging, and production environments. Built with Python and Streamlit, it offers both CLI and web-based visualization for configuration consistency checks.
 
-🔗 Live Demo: Streamlit App
+🔗 Live Demo: https://configuration-management-and-drift-dectection-system.streamlit.app/
 
 💡 Features
 🔍 Detects drift across environments (dev, staging, prod)
